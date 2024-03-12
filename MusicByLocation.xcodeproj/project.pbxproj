@@ -77,6 +77,7 @@
 		DBEDD3042B9B8F710071FFB8 = {
 			isa = PBXGroup;
 			children = (
+				DBEDD33E2B9C9B020071FFB8 /* Views */,
 				DBEDD33A2B9B90840071FFB8 /* Models */,
 				DBEDD30F2B9B8F720071FFB8 /* MusicByLocation */,
 				DBEDD3202B9B8F7F0071FFB8 /* MusicByLocationTests */,
@@ -100,7 +101,6 @@
 			children = (
 				DBEDD33D2B9B93A90071FFB8 /* Info.plist */,
 				DBEDD3102B9B8F720071FFB8 /* MusicByLocationApp.swift */,
-				DBEDD3122B9B8F720071FFB8 /* ContentView.swift */,
 				DBEDD3142B9B8F7E0071FFB8 /* Assets.xcassets */,
 				DBEDD3162B9B8F7E0071FFB8 /* Preview Content */,
 			);
@@ -138,6 +138,14 @@
 				DBEDD33B2B9B90AD0071FFB8 /* LocationHandler.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		DBEDD33E2B9C9B020071FFB8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DBEDD3122B9B8F720071FFB8 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
